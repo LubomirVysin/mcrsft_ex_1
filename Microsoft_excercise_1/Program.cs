@@ -8,6 +8,7 @@ namespace Microsoft_excercise_1
         {
             ChangeManager changeManager = new ChangeManager();
             Console.WriteLine(changeManager.MakeChange(135));
+            Console.ReadKey();
         }
     }
 }
